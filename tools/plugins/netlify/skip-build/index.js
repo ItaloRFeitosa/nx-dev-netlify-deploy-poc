@@ -1,7 +1,8 @@
 module.exports = {
-  onPreBuild: ({ utils }) => {
+  onPreBuild: ({ utils, constants }) => {
     const currentProject = process.env.PROJECT_NAME;
     console.log("process.env", process.env)
+    console.log("constants", constants)
     const lastDeployedCommit = process.env.CACHED_COMMIT_REF;
     const latestCommit = 'HEAD';
     const projectHasChanged = projectChanged(
