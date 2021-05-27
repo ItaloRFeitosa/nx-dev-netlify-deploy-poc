@@ -11,6 +11,6 @@ const Container = styled.div`
 
 export function Dashboard(){
   return <Container>
-      <H1>This is the page of Dashboard</H1>
+      <H1>This is the page of Dashboard Changed</H1>
   </Container>
 }
