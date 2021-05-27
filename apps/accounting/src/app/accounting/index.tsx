@@ -11,6 +11,6 @@ const Container = styled.div`
 
 export function Accounting(){
   return <Container>
-      <H1>This is the page of Accounting</H1>
+      <H1>This is the page of Accounting Changed</H1>
   </Container>
 }
