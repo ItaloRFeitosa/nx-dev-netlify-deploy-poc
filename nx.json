@@ -28,6 +28,16 @@
     },
     "ui": {
       "tags": []
+    },
+    "domain": {
+      "tags": []
+    },
+    "accounting": {
+      "tags": []
+    },
+    "accounting-e2e": {
+      "tags": [],
+      "implicitDependencies": ["accounting"]
     }
   }
 }

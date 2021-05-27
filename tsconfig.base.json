@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-netlify-deploy-poc/ui": ["libs/ui/src/index.ts"]
+      "@nx-netlify-deploy-poc/ui": ["libs/ui/src/index.ts"],
+      "@nx-netlify-deploy-poc/domain": ["libs/domain/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
