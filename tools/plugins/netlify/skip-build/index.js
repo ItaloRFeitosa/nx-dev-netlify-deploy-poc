@@ -1,6 +1,6 @@
 module.exports = {
   onPreBuild: ({ utils, constants }) => {
-    if(process.env.FORCE_DEPLOY == true){
+    if(process.env.FORCE_DEPLOY == 'true'){
       return
     }
 
