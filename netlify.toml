@@ -1,2 +1,7 @@
 [[plugins]]
   package = "./tools/plugins/netlify/skip-build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
