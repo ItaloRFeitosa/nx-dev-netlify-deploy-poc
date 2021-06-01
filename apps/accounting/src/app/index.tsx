@@ -16,7 +16,7 @@ const makeAccounting = (user: User): SharedLayoutProps => ({
 
 const makePages = (user: User) => [{
   exact: true,
-  path: "/",
+  path: "/accounting",
   component: () => <SharedLayout {...makeAccounting(user)}/>
 }]
 
