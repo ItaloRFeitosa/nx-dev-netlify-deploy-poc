@@ -1,7 +1,11 @@
-[[plugins]]
-  package = "./tools/plugins/netlify/skip-build"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[plugins]]
+  package = "./tools/plugins/netlify/send-deploy-references-to-s3"
+
+[[plugins]]
+  package = "./tools/plugins/netlify/skip-build"
+
