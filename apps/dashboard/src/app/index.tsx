@@ -22,7 +22,7 @@ const makePages = (user: User) => [{
 
 export function App() {
   const user: User ={
-    name: "Italo Feitosa",
+    name: "Italo Ramos Feitosa",
     avatarUrl: "https://avatars.githubusercontent.com/u/28817089?v=4",
     email: "italo85199@gmail.com",
     roles: ["developer"]
