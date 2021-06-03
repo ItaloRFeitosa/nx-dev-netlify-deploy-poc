@@ -43,8 +43,7 @@ module.exports = {
     try {
       await sendDeployReferenceToS3()
     } catch (error) {
-      utils.build.cancelBuild("Build Canceled due error: ", error.message)
-      console.error(error.stack)
+      utils.build.cancelBuild("Build Canceled due error: \n", error.message, "\n", error.stack)
     }
   }
 };
